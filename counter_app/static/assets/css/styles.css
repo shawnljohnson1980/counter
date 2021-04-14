@@ -1,7 +1,8 @@
 p {
   font-family: "Aclonica";
 }
-.bubble_text {
-  font-family: Game On_PersonalUseOnly;
-  font-size: 65px;
+.text {
+  margin-top: 15px;
+  background: none;
+  background-color: none;
 }
