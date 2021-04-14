@@ -6,3 +6,12 @@ p {
   background: none;
   background-color: none;
 }
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section button {
+  width: 130px;
+}
