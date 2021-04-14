@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>dojo_count</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Navigation-Clean.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md border-warning border rounded-0 shadow navigation-clean">
+        <div class="container"><a class="navbar-brand color" href="/refresh" style="font-family: Aclonica, sans-serif;">
+                DRILL SARGEANT SAYS CLICK HERE TO COUNT!</a>
+            <p>Counter:{{count}}</p><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span
+                    class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        </div>
+    </nav>
+    <section id="d-s">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col text-uppercase text-right d-flex justify-content-center bounce animated"
+                    style="color: rgb(89,87,28);"><img
+                        class="border rounded border-dark shadow d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center"
+                        src="{% static 'assets/img/drill%20sergeant.jpeg' %}" height="490px">
+                    <p class="shadow text mb 5"
+                        style="font-family: Aclonica, sans-serif;font-weight: bold; font-style: normal;font-size:85px;background-color:transparent;">
+                        {{count}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/bootstrap/js/bootstrap.min.js' %}"></script>
+</body>
+
+</html>
